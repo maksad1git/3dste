@@ -1,6 +1,6 @@
-import * as THREE from 'three';
-import { OrbitControls } from 'OrbitControls';
-import { GLTFLoader } from 'GLTFLoader';
+import * as THREE from 'https://unpkg.com/three@0.153.0/build/three.module.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.153.0/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://unpkg.com/three@0.153.0/examples/jsm/loaders/GLTFLoader.js';
 import { RenderPass } from 'https://unpkg.com/three@0.153.0/examples/jsm/postprocessing/RenderPass.js';
 import { EffectComposer } from 'https://unpkg.com/three@0.153.0/examples/jsm/postprocessing/EffectComposer.js';
 
